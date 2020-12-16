@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head><title>Fibonacci Sequence</title></head>
+<body>
+ <body background= "tenor.gif">
+ 
+<h3 style="text-align:center;color:blue; padding:150px 0 0;font-size:35px;">Fibonacci Sequence</h3>
+
+<script type="text/javascript">
+
+	
+	var x = 0;
+	var y = 1;
+	var z;
+	
+	var num = prompt("Input the range of number:","");
+	var space = "";
+			document.write('<center>' +space+ '<center>');
+			document.write("("+num+ ")");	
+			document.write(" ","["," " );
+			document.write(" ",x,",");
+			document.write(" ",y," ");
+			
+			
+		var i, z;
+		for(i=2; i<num; i++)
+{
+		z=x+y;
+		x=y;
+		y=z;
+		document.write(" ,",z," ");
+		
+		}
+		document.write(" ","]"," ");
+
+		
+	</script>
+	
+	
+	</body>
+</html>
